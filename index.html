@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mon site web</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 </head>
 <body>
   <!-- En-tête -->
@@ -25,35 +27,36 @@
 
   
   <!-- Section "À propos" -->
-  <section id="about">
+  <section id="about" class="section-about">
     <h2>À propos</h2>
     <p>
 
         Bienvenue sur notre site web ! 
         <br />
-         Nous sommes une équipe passionnée dédiée à vous fournir des informations précieuses et des services de qualité dans la Comptabilité. Notre objectif est de vous accompagner.
+         Nous sommes une équipe passionnée dédiée à vous fournir des informations précieuses et des services de qualité. Notre objectif est de vous accompagner.
         
         Chez Aba Global, nous croyons en nos capacités. Nous mettons tout en œuvre pour satisfaire la clientèle. Notre équipe est là pour répondre à vos besoins et vous offrir une expérience unique.
         
-        Que vous recherchiez une assistance , des conseils pratiques, ou des ressources informatives, nous avons ce qu'il vous faut. Notre engagement envers vous est de aider à réaliser vos objectifs.</p>
+        Que vous recherchiez une assistance , des conseils pratiques, ou des ressources informatives, nous avons ce qu'il vous faut. Notre engagement envers vous est de vous aider à réaliser vos objectifs.</p>
   </section>
 
   <!-- Section "Travail" -->
-  <section id="work">
+  <section id="work" class="section-work">
     <h2>Travail</h2>
-    <p>Notre projet informatique est une initiative ambitieuse qui vise à répondre aux besoins croissants de notre entreprise/organisation dans le domaine de la technologie. Nous avons identifié une opportunité de développer et de mettre en place une solution innovante pour améliorer notre efficacité, notre productivité et notre compétitivité sur le marché.
+    <p>Notre projet est une initiative ambitieuse qui vise à répondre aux besoins croissants de notre entreprise dans le domaine de la technologie. Nous avons identifié une opportunité de développer et de mettre en place une solution innovante pour améliorer notre efficacité, notre productivité et notre compétitivité sur le marché.
 
         Le projet repose sur une approche stratégique, où nous allons mettre en œuvre une stratétégie pour une solution logicielle personnalisée qui répondra spécifiquement à nos besoins. Cette solution sera développée par notre équipe d'experts en collaboration avec des partenaires technologiques de confiance.</p>
   </section>
 
   <!-- Section "CV" -->
-  <section id="cv">
+  <section id="cv" class="section-cv">
     <h2>CV</h2>
-    <p> Veuillez cliquer ici pour afficher notre CV.</p>
+    <img src="C:\Users\LENOVO\Desktop\Travaux HTML\cv14.jpg" alt="Curriculum Vitae" class="cv-image">
+    
   </section>
 
   <!-- Section "Contact" -->
-  <section id="contact">
+  <section id="contact" class="section-contact">
     <h2>Contact</h2>
     <form>
       <label for="name">Nom :</label>
@@ -74,42 +77,52 @@
 
 
   <!-- Éléments supplémentaires -->
-  <video src="C:\Users\LENOVO\Desktop\Travaux HTML\Comment rédiger un CV efficace _.mp4" width="450" height="350" controls> </video> 
-  <br /> <br />
-  <audio src="C:\Users\LENOVO\Desktop\Travaux HTML\CVPrésentation Vidéo.mp3" controls> </audio> 
-  <br /> <br />
+  <section id="extras" class="other">
+    <h2>Vidéo de Présentation sur Comment rédiger un CV efficace</h2>
 
-  <a href="#about">Aller à la section À propos</a>
-  <ul>
-    <li>Avis</li>
-    <li>Suggestions</li>
-    <li>Critiques</li>
-  </ul>
+   <video src="C:\Users\LENOVO\Desktop\Travaux HTML\Comment rédiger un CV efficace _.mp4" width="350" height="350"  controls> </video> 
+   <br /> <br />
+    
+   <div class="audio-container">
+    <h2 class="audio-title"> Audio expliquant comment se présenter en dans un entretien</h2>
+    <audio src="C:\Users\LENOVO\Desktop\Travaux HTML\CVPrésentation Vidéo.mp3" controls> </audio> 
+   </div>
+   <br /> <br />
 
-  <table>
+   <a class="bold-link" href="#about">Aller à la section A propos</a> 
+   <div class="bold-list">
+    <ul>
+      <li>Avis</li>
+      <li>Suggestions</li>
+      <li>Critiques</li>
+    </ul>
+   </div>
+
+  <table class="bold-table">
     <thead>
       <tr>
-        <th>NOM</th>
-        <th>AGE</th>
-        <th>PROFESSION</th>
+        <th style="border: 1px solid white;">NOM</th>
+        <th style="border: 1px solid white;">AGE</th>
+        <th style="border: 1px solid white;">PROFESSION</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td> ADO </td>
-        <td> 25 </td>
-        <td>INGENIEUR</td>
+        <td style="border: 1px solid white;"> ADAMA </td>
+        <td style="border: 1px solid white;"> 25 </td>
+        <td style="border: 1px solid white;">INGENIEUR</td>
       </tr>
       <tr>
-        <td> FAT </td>
-        <td> 32 </td>
-        <td>AVOCATE</td>
+        <td style="border: 1px solid white;"> FATOU </td>
+        <td style="border: 1px solid white;"> 32 </td>
+        <td style="border: 1px solid white;">AVOCATE</td>
       </tr>
     </tbody>
   </table>
+  </section>
 
   <!-- Pied de page -->
-  <footer>
+  <footer class="footer">
     <p>© 2023 Mon site web. Tous droits réservés.</p>
   </footer>
 
